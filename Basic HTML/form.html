@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>User Details</legend>
+
+        <label for="Firstname">FirstName :</label>
+        <input
+          type="text"
+          name="firstname"
+          id="Firstname"
+          placeholder="Enter firstname"
+        />
+        <br />
+        <br />
+        <label for="Lastname">Lastname :</label>
+        <input
+          type="text"
+          name="lastname"
+          id="Lastname"
+          placeholder="Enter lastname"
+        />
+        <br />
+        <br />
+        <label for="Email">Email :</label>
+        <input
+          type="email"
+          name="email"
+          id="Email"
+          placeholder="abc@gmail.com"
+        />
+        <br />
+        <br />
+        <label for="Contact">Contact :</label>
+        <input
+          type="tel"
+          name="contact"
+          id="Contact"
+          placeholder="Enter contact number"
+        />
+        <br />
+        <br />
+        <label for="City">City :</label>
+        <select name="city" id="City">
+          <option value="Jaipur">Jaipur</option>
+          <option value="Ajmer">Ajmer</option>
+          <option value="Kota">Kota</option>
+          <option value="Udaipur">Udaipur</option>
+        </select>
+        <br /><br />
+        <label for="Gender">Gender :</label>
+        <label for="male">Male</label>
+        <input type="radio" name="Gender" value="male" />
+        <label for="female">Female</label>
+        <input type="radio" name="Gender" value="female" />
+        <label for="other">Other</label>
+        <input type="radio" name="Gender" value="other" />
+        <br />
+        <br />
+        <label for="DOB">Date of Birth :</label>
+        <input type="date" name="DOB" id="DOB" />
+        <br /><br />
+
+        <!-- Skills : -->
+        <label for="Skills">Skills :</label>
+        <label for="html">HTML</label>
+        <input type="checkbox" name="HTML" value="yes" />
+        <label for="css">CSS</label>
+        <input type="checkbox" name="CSS" value="yes" />
+        <label for="javaScript">JavaScript</label>
+        <input type="checkbox" name="JavaScript" value="yes" />
+        <label for="java">Java</label>
+        <input type="checkbox" name="Java" value="yes" />
+        <br />
+        <br />
+        <label for="Time">Time :</label>
+        <input type="time" name="time" id="Time" />
+        <br />
+        <br />
+        <label for="File">File :</label>
+        <input
+          type="file"
+          name="file"
+          id="File"
+          placeholder="choose file from your device"
+        />
+        <br />
+        <br />
+        <input type="submit" value="Submit Form" />
+      </fieldset>
+    </form>
+  </body>
+</html>
