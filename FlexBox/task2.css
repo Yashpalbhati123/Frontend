@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.outer-box {
+  height: 100vh;
+  background-color: #c7e3ec;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.inner-box {
+  background-color: blue;
+  height: 40px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
