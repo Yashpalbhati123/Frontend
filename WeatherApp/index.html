@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <div class="input-box">
+          <input type="text" placeholder="Search" class="search-bars" id="search-box" oninput="text()" />
+          <button class="search-button" onclick="SearchedText()">
+            <i class="icons fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+        <div class="content">
+          <div class="left">    
+            <h1 id="location">Jaipur</h1>
+            <h4>21-feb-2025</h4>
+          </div>
+          <div class="right">
+            <h1>21°C</h1>
+            <h4>20°C/30°C</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="function.js"></script>
+  </body>
+</html>
